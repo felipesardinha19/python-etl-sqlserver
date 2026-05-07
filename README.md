@@ -81,6 +81,10 @@ Data_Pipeline_Vendas/
 ├── data/
 │   └── raw/
 │       └── vendas_tech.csv
+│   └── silver/
+│       └── data_clean.parquet
+│   └── gold/
+│       └── metrrics.parquet
 │
 ├── docs/
 │   └── image/
