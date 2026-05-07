@@ -13,13 +13,21 @@ Script que realiza o processo completo de ETL a partir de um dataset fictício d
 ## 🏗️ Arquitetura
 
 ```
-CSV (dados brutos)
+   RAW/CSV 
       ↓
    Extract        → leitura do arquivo CSV com Pandas
       ↓
-  Transform       → limpeza e padronização dos dados
+  Transform       → Etapa de limpeza e criação de métricas
       ↓
-    Load          → carga no SQL Server via SQLAlchemy
+   Limpeza        → limpeza e padronização dos dados
+      ↓
+    Silver        → Salva na pasta/camada Silver
+      ↓
+   Metrics        → Cria métricas para analise
+      ↓
+     Gold         → Salva na pasta/camada Gold
+      ↓
+     Load          → carga no SQL Server via SQLAlchemy
       ↓
  SQL Server       → tabela Vendas
       ↓
