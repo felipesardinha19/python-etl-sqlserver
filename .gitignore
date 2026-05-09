@@ -1,9 +1,25 @@
+# Environment variables
 .env
+
+# Python
 __pycache__/
 *.pyc
+venv/
 
-#logs
+# Logs
 logs/
 *.log
-venv/
+
+# Data files
 silver/
+
+# dbt
+target/
+dbt_packages/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
