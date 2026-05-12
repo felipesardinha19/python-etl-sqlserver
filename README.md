@@ -64,7 +64,7 @@ Visualizações:
  - Faturamento por loja
  - Faturamento por produto
 
-![Dashboard Power BI](docs/image/dashboard_powerbi.png)
+![Dashboard Power BI](docs/image/dashboard_sales.png)
 
 ### 📈 Insights gerados
  - A loja de Salvador apresentou o maior volume de vendas, enquanto a loja Online teve o menor desempenho no período analisado
